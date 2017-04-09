@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.02">
 
         <TextView
-            android:id="@+id/t_questions"
+            android:id="@+id/t_FAQs"
             android:layout_width="100dp"
             android:layout_height="20dp"
             android:layout_marginBottom="8dp"
@@ -40,7 +40,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/p_questions"
+            app:layout_constraintTop_toBottomOf="@+id/p_FAQs"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -61,11 +61,11 @@
             app:layout_constraintHorizontal_bias="0.75"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/p_about"
+            app:layout_constraintTop_toBottomOf="@+id/p_about_us"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/t_signin"
+            android:id="@+id/t_myportal"
             android:layout_width="100dp"
             android:layout_height="20dp"
             android:layout_marginBottom="8dp"
@@ -74,18 +74,18 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="SIGN IN"
+            android:text="MY PORTAL"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/p_signin"
+            app:layout_constraintTop_toBottomOf="@+id/p_myportal"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/t_study"
+            android:id="@+id/t_library"
             android:layout_width="100dp"
             android:layout_height="20dp"
             android:layout_marginBottom="8dp"
@@ -94,7 +94,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="STUDY"
+            android:text="LIBRARY"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -102,11 +102,11 @@
             app:layout_constraintHorizontal_bias="0.25"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/p_study"
+            app:layout_constraintTop_toBottomOf="@+id/p_library"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/t_apply"
+            android:id="@+id/t_moodle"
             android:layout_width="100dp"
             android:layout_height="20dp"
             android:layout_marginBottom="8dp"
@@ -115,7 +115,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="APPLY"
+            android:text="MOODLE"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="18sp"
@@ -124,11 +124,11 @@
             app:layout_constraintHorizontal_bias="0.011"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/p_apply"
+            app:layout_constraintTop_toBottomOf="@+id/p_moodle"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageButton
-            android:id="@+id/p_signin"
+            android:id="@+id/p_myportal"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginBottom="8dp"
@@ -145,7 +145,7 @@
             app:srcCompat="@drawable/b3" />
 
         <ImageButton
-            android:id="@+id/p_questions"
+            android:id="@+id/p_FAQs"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginBottom="8dp"
@@ -163,7 +163,7 @@
             app:srcCompat="@drawable/b5" />
 
         <ImageButton
-            android:id="@+id/p_apply"
+            android:id="@+id/p_moodle"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginBottom="8dp"
@@ -181,7 +181,7 @@
             app:srcCompat="@drawable/b1" />
 
         <ImageButton
-            android:id="@+id/p_study"
+            android:id="@+id/p_library"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginBottom="8dp"
@@ -199,7 +199,7 @@
             app:srcCompat="@drawable/b2" />
 
         <ImageButton
-            android:id="@+id/p_about"
+            android:id="@+id/p_about_us"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginBottom="8dp"
@@ -273,7 +273,7 @@
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="370dp"
-            android:layout_height="match_parent"
+            android:layout_height="648dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="8dp"
@@ -322,7 +322,7 @@
         <LinearLayout
             android:id="@+id/linearLayout3"
             android:layout_width="370dp"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="8dp"
