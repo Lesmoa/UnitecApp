@@ -30,7 +30,8 @@
         <activity android:name=".FAQsActivity" />
         <activity android:name=".CurrentStudentActivity" />
         <activity android:name=".ContactActivity" />
-        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".MyportalActivity"></activity>
     </application>
 
 </manifest>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">UnitecApp</string>
+    <string name="hint_email">Enter your Email</string>
+    <string name="hint_password">Enter your Password</string>
 </resources>
