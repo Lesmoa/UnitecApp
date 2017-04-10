@@ -75,6 +75,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:onClick="sendMyportal"
             android:text="MY PORTAL"
             android:textAlignment="center"
             android:textSize="18sp"
@@ -140,6 +141,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
+            android:onClick="sendMyportal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -304,12 +306,14 @@
                 android:id="@+id/p_career"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
+                android:onClick="sendCareer"
                 app:srcCompat="@drawable/career" />
 
             <TextView
                 android:id="@+id/t_career"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:onClick="sendCareer"
                 android:text="Career and study options"
                 android:textSize="30sp"
                 android:textStyle="bold" />

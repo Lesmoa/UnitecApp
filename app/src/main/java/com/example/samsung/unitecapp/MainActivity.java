@@ -54,4 +54,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, WelcomeActivity.class);
         startActivity(intent);
     }
+
+    public void sendCareer(View aView){
+        Intent intent = new Intent(this, CareerAndStudyOptionsActivity.class);
+        startActivity(intent);
+    }
+
+    public void sendMyportal(View aView){
+        Intent intent = new Intent(this,MyportalActivity.class);
+        startActivity(intent);
+    }
 }
