@@ -32,6 +32,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:onClick="sendFAQs"
             android:text="FAQs"
             android:textAlignment="center"
             android:textSize="18sp"
@@ -44,7 +45,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/t_about_us"
+            android:id="@+id/t_calendar"
             android:layout_width="100dp"
             android:layout_height="20dp"
             android:layout_marginBottom="8dp"
@@ -53,7 +54,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="ABOUT US"
+            android:text="CALENDAR"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -61,7 +62,7 @@
             app:layout_constraintHorizontal_bias="0.75"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/p_about_us"
+            app:layout_constraintTop_toBottomOf="@+id/p_calendar"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -94,6 +95,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:onClick="sendLibrary"
             android:text="LIBRARY"
             android:textAlignment="center"
             android:textSize="18sp"
@@ -115,6 +117,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:onClick="sendMoodle"
             android:text="MOODLE"
             android:textAlignment="center"
             android:textAllCaps="true"
@@ -154,6 +157,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
+            android:onClick="sendFAQs"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -172,6 +176,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
+            android:onClick="sendMoodle"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.011"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -190,6 +195,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
+            android:onClick="sendLibrary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.25"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -199,7 +205,7 @@
             app:srcCompat="@drawable/b2" />
 
         <ImageButton
-            android:id="@+id/p_about_us"
+            android:id="@+id/p_calendar"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginBottom="8dp"
@@ -233,6 +239,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/banner4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/banner4" />
 
         <ImageView
             android:id="@+id/banner3"
@@ -299,21 +311,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:text="Career and study options"
-                android:textAlignment="viewStart"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/p_guide"
+                android:id="@+id/p_welcome"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
+                android:onClick="sendWelcome"
                 app:srcCompat="@drawable/p5" />
 
             <TextView
-                android:id="@+id/t_guide"
+                android:id="@+id/t_welcome"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_weight="0.14"
+                android:onClick="sendWelcome"
                 android:text="Welcome to Unitec"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -340,14 +353,15 @@
                 android:id="@+id/p_current"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
+                android:onClick="sendCurrentStudent"
                 app:srcCompat="@drawable/current" />
 
             <TextView
                 android:id="@+id/t_current"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:onClick="sendCurrentStudent"
                 android:text="Current Students"
-                android:textAlignment="textStart"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -355,12 +369,14 @@
                 android:id="@+id/p_contact"
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
+                android:onClick="sendContact"
                 app:srcCompat="@drawable/contact" />
 
             <TextView
                 android:id="@+id/t_contact"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:onClick="sendContact"
                 android:text="Contact us"
                 android:textSize="30sp"
                 android:textStyle="bold" />
