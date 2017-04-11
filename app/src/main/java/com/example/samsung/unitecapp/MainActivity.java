@@ -64,4 +64,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,MyportalActivity.class);
         startActivity(intent);
     }
+
+    public void sendCalendar(View aView){
+        Intent intent = new Intent(this, CalendarActivity.class);
+        startActivity(intent);
+    }
 }

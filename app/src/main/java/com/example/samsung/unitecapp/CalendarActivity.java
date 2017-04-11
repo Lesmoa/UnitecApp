@@ -1,14 +1,13 @@
 package com.example.samsung.unitecapp;
 
-import android.app.Activity;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class CareerAndStudyOptionsActivity extends AppCompatActivity {
+public class CalendarActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_careerandstudyoptions);
+        setContentView(R.layout.activity_calendar);
     }
 }

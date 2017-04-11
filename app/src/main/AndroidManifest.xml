@@ -23,7 +23,7 @@
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".MoodleActivity"
@@ -37,7 +37,8 @@
         <activity android:name=".CurrentStudentActivity" />
         <activity android:name=".ContactActivity" />
         <activity android:name=".WelcomeActivity" />
-        <activity android:name=".MyportalActivity"></activity>
+        <activity android:name=".MyportalActivity" />
+        <activity android:name=".CalendarActivity"></activity>
     </application>
 
 </manifest>
