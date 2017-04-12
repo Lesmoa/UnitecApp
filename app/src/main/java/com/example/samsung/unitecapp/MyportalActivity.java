@@ -16,10 +16,12 @@ public class MyportalActivity extends AppCompatActivity {
     }
 
     public void button_login(View aView){
-        TextView tvEmail = (TextView)findViewById(R.id.portal_email);
-        String strEmail = tvEmail.getText().toString();
+        TextView t_email = (TextView)findViewById(R.id.portal_email);
+        String strEmail = t_email.getText().toString();
+        TextView t_password = (TextView)findViewById(R.id.portal_password);
+        String strPassword = t_password.getText().toString();
 
-        if((((TextView)findViewById(R.id.portal_email)).getText().toString().equals(""))||((TextView)findViewById(R.id.portal_password)).getText().toString().equals((""))){
+        if((strEmail.equals(""))||(strPassword.equals(("")))){
             AlertDialog.Builder log_message = new AlertDialog.Builder(MyportalActivity.this);
             log_message.setMessage("Please enter your details!");
             log_message.setTitle("Warning");
@@ -31,7 +33,10 @@ public class MyportalActivity extends AppCompatActivity {
             Intent intent = new Intent(this,MainActivity.class);
             startActivity(intent);
         }
+    }
 
-
+    public void homePage(View aView) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
